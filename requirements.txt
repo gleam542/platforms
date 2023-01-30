@@ -1,0 +1,10 @@
+requests_html==0.10.0
+beautifulsoup4==4.9.1
+py7zr==0.13.0
+pycryptodome==3.9.8
+pytz==2021.1
+werdsazxc @ git+https://gitea.2dev.us/Python/utils
+pyppeteer==0.2.2
+psutil==5.8.0
+pyinstaller==4.0
+python-dotenv

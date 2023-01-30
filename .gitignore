@@ -1,0 +1,12 @@
+__pycache__
+.ipynb_checkpoints
+後台連線資訊.json
+platforms.egg-info
+.vscode
+config/log
+config/*.ddl
+build
+dist
+*/__pycache__
+*.ipynb
+platforms/cd/test/module.py

@@ -1,0 +1,88 @@
+{
+    "api_version": "20201023",
+    "//api_version": "支援api格式版本號",
+
+    "test_dns": "180.76.76.76",
+    "//test_dns": "檢查連線、獲取外部IP(180.76.76.76是百度DNS)",
+
+    "backend_otp": "",
+    "//backend_otp": "本次登入平台使用的OTP",
+
+    "need_bk_otp": true,
+    "//need_bk_otp": "PR6后台帳號是否啟用OTP",
+
+    "need_backend_otp": true,
+    "//need_backend_otp": "平台是否啟用OTP",
+
+    "platform": "LEBO",
+    "//platform": "機器人設置 - 平台",
+
+    "backend_username": "",
+    "//backend_username": "機器人設置 - 平台帳號",
+
+    "backend_password": "",
+    "//backend_password": "機器人設置 - 平台密碼",
+
+    "update_times": 1,
+    "//update_times": "機器人設置 - 刷新頻率",
+
+    "switching": true,
+    "//switching": "機器人設置 - 自動連接",
+
+    "amount_below": 50.0,
+    "//amount_below": "機器人設置 - 小額自動",
+
+    "backend_remarks": "",
+    "//backend_remarks": "機器人設置 - 平台充值備註",
+
+    "multiple": "1",
+    "//multiple": "機器人設置 - 打碼量",
+
+    "robot_act": "",
+    "//robot_act": "機器人設置 - 机器人帐号",
+
+    "robot_pw": "",
+    "//robot_pw": "機器人設置 - 机器人密码",
+
+    "timeout": 15,
+    "//timeout": "機器人設置 - 等待回應時間",
+
+    "recharg": true,
+    "//recharg": "機器人設置 - 冷卻後重新充值",
+
+    "proname": "无资料",
+    "//proname": "管理員設置 - 活動名稱",
+
+    "url": "无资料",
+    "//url": "管理員設置 - PR6后台網址",
+
+    "api": "无资料",
+    "//api": "管理員設置 - 平台網址",
+
+    "ip": "无资料",
+    "//ip": "管理員設置 - 綁定IP",
+
+    "secret_key": "1234",
+    "//secret_key": "管理員設置 - 機器人密鑰",
+
+    "super_pass": "0",
+    "//super_pass": "超級管理員密碼",
+
+    "token": "",
+    "//token": "機器人登入由PR6后台回傳, 紀錄機器人登入身分信息",
+
+    "connect": false,
+    "//connect": "機器人測試連線(test_dns)結果",
+
+    "error_msg": [],
+    "//error_msg": "目前機器人錯誤訊息",
+
+    "retry_times": 3,
+    "//retry_times": "連線異常重試次數",
+
+    "game": false,
+    "//game": "是否有正確取得活動",
+
+    "game_setting": {},
+    "//game_setting": "各子系统清单, 及其設定內容"
+}

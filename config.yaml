@@ -1,0 +1,116 @@
+CHUNK_SIZE: 512
+CONFIG_URL: https://testcdn.test998.com/botdownload/整合機器人/config.yaml
+CURRENT: {}
+LASTEST:
+  API_VERSION: '20201023'
+  CONFIG_FILES:
+  - config\setting.ddl
+  DATA_URL: https://testcdn.test998.com/botdownload/整合機器人/history/整合機器人V2.7.13.exe
+  DIR_PATH: 整合機器人V2.7.13
+  FILE_PATH: main.exe
+  REQUIRE: false
+  TYPE: EXE
+  VERSION: 2.7.13
+VERSIONS:
+  2.4.10:
+    INFO: 調整API連線異常導致錯誤狀況
+    SYSTEM: 【PR6】所有系統 - 優化API串接
+  2.4.11:
+    INFO: 更新重複入款被擋住，判斷邏輯繁簡字異常問題
+    SYSTEM: 【BBIN】充值
+  2.4.12:
+    INFO: 修正特殊住單無法查詢問題
+    SYSTEM: 【CD】喜上喜
+  2.4.2:
+    INFO: 更新CQ9修改域名导致无法审核问题
+    SYSTEM: 【BBIN】【LEBO】旋转注单
+  2.4.3:
+    INFO: 更新遇到gzip无法解析时自动重试
+    SYSTEM: 【BBIN】注单、喜上喜、旋转注单
+  2.4.5:
+    INFO: 與PR6溝通解析異常重試
+    SYSTEM: 【PR6】所有系统：提升稳定性
+  2.4.6:
+    INFO: 修改查詢「會員層級」回傳空串列問題
+    SYSTEM: 【CD】活动大厅、喜上喜、注单、旋转注单
+  2.4.7:
+    INFO: 因應BB現金系統改版 更換複查充值結果API、參數
+    SYSTEM: 【BBIN】所有系統-充值功能
+  2.5.0:
+    INFO: 活動大廳 - 新增支援新版活動大廳進度功能
+    SYSTEM: 【BBIN】【CD】【LEBO】活動大廳 - 支援新版活動大廳進度功能
+  2.5.1:
+    INFO: 充值參數cf無法捕捉問題修正
+    SYSTEM: 【PR6】活動大廳-未知異常修正
+  2.5.2:
+    INFO: 充值新增判斷是否支援回傳進度導致錯誤
+    SYSTEM: 【BBIN、LEBO、CD】活動大廳
+  2.5.3:
+    INFO: 遇到UnicodeDecodeError、simplejson捕捉判斷增加
+    SYSTEM: 【PR6】各系統-連線穩定度優化
+  2.5.4:
+    INFO: 取消simplejson引用
+    SYSTEM: 【PR6】各系統-連線穩定度優化
+  2.5.5:
+    INFO: ''
+    SYSTEM: 【BBIN】旋轉注單 - CQ9 網址修改導致無法查詢問題修正
+  2.6.0:
+    INFO: 新增 【PR6】APP登入禮
+    SYSTEM: 新增 【PR6】APP登入禮
+  2.6.10:
+    INFO: ''
+    SYSTEM: 【喜上喜】支援詳細進度回傳功能、【LEBO】新增支援遊戲：舞动巴厘岛
+  2.6.2:
+    INFO: 修正審核備注回傳內容包含繁體字問題
+    SYSTEM: 【PR6】各系統
+  2.6.3:
+    INFO: 注單號驗證一律統一以小寫方式驗證
+    SYSTEM: 【BBIN、CD】注單、喜上喜、旋轉注單
+  2.6.4:
+    INFO: 小寫判斷錯誤修正
+    SYSTEM: 【BBIN】注單
+  2.6.5:
+    INFO: 同帳號無法重複充值問題修正。
+    SYSTEM: 【LEBO】充值
+  2.6.6:
+    INFO: 更新回傳任務遇到編碼異常，改為該筆重新執行。
+    SYSTEM: 【PR6】所有系統
+  2.6.7:
+    INFO: ''
+    SYSTEM: 【BBIN】注單:新增框架版本注單機器人支援遊戲
+  2.6.9:
+    INFO: 新增支援【百胜棋牌】
+    SYSTEM: 【BBIN】注單、喜上喜
+  2.7.0:
+    INFO: 修正進度回傳未知錯誤
+    SYSTEM: 【CD】旋轉注單
+  2.7.1:
+    INFO: 修正進度回傳未知錯誤
+    SYSTEM: 【CD】旋轉注單
+  2.7.10:
+    INFO: 修正測試版本誤傳
+    SYSTEM: 【BBIN】注單
+  2.7.11:
+    INFO: 充值後推播通知時間調整
+    SYSTEM: 【BBIN】APP登入禮
+  2.7.2:
+    INFO: 修正充值進度回傳缺少參數問題
+    SYSTEM: 【註冊紅包】
+  2.7.3:
+    INFO: ''
+    SYSTEM: 【BBIN】充值
+  2.7.4:
+    INFO: 修正回傳進度內容異常
+    SYSTEM: 【BBIN】APP登入禮
+  2.7.5:
+    INFO: 修正APP登入禮跨日後彈跳未知錯誤問題
+    SYSTEM: 【BBIN】APP登入禮、旋轉注單
+  2.7.7:
+    INFO: 詳細資訊事先檢查、PG域名自動抓取
+    SYSTEM: 【BBIN】 旋轉注單、體驗金、APP登入禮、註冊紅包
+  2.7.9:
+    INFO: 注單號大小寫判斷錯誤問題。
+    SYSTEM: 【CD】喜上喜
+  2.7.13:
+    INFO: 修改CD注單號與會員不符(大小寫)問題。
+    SYSTEM: 【CD】注單、喜上喜、旋轉注單
