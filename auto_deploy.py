@@ -15,10 +15,10 @@ load_dotenv(encoding='utf-8')  # 載入 .env 檔案
 
 
 class Deploy:
-    download_url = 'https://testcdn.test998.com/botdownload/'
-    ftp_url = '18.163.192.24'
-    ftp_account = 'taiwinner'
-    ftp_password = 'taiwinner999'
+    download_url = ''
+    ftp_url = ''
+    ftp_account = ''
+    ftp_password = ''
 
     PLATFORM = os.getenv('PLATFORM', '')
     APP_NAME = os.getenv('PLATFORM', f'整合機器人')
